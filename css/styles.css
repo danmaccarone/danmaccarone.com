@@ -166,7 +166,7 @@ a { color: inherit; }
 }
 .story__badge { display:flex; justify-content:center; }
 .story__badge img { width: 230px; max-width: 100%; height: auto; filter: brightness(0) invert(1); }
-.cr__logo img { width: min(340px, 90%); height: auto; }
+.cr__logo img { width: min(300px, 85%); height: auto; filter: brightness(0) invert(1); }
 .story__body h2 { font-size: clamp(2rem,4.5vw,3.2rem); font-weight: 900; margin-bottom: 1rem; }
 .story__body p { font-size: 1.12rem; color:#eafaff; max-width: 56ch; margin: 0 0 1.8rem; }
 .episode { margin: 0 0 1.8rem; }
