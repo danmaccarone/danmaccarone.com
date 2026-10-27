@@ -225,6 +225,41 @@ a { color: inherit; }
 .speaking__past .cta, .medium .cta, .cr .cta, .event .cta { color: var(--ink); }
 .cr .cta { color:#fff; }
 
+/* =================== CONTACT =================== */
+.contact { background: var(--ink-2); color: #fff; }
+.contact__inner { max-width: 820px; margin: 0 auto; padding: var(--sec-y) var(--pad); }
+.contact__head h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 800; }
+.contact__dek { color: #c9cbd0; margin: .8rem 0 2.4rem; font-size: 1.1rem; max-width: 56ch; }
+
+.cform__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.field { display: flex; flex-direction: column; gap: .45rem; }
+.field--full { grid-column: 1 / -1; }
+.field label { font-family: "Archivo", sans-serif; font-weight: 600; font-size: .82rem; letter-spacing: .03em; color: #dcdee2; }
+.field__opt { color: #8b8e95; font-weight: 400; }
+.field input, .field textarea {
+  background: #121316; border: 1px solid #2b2d31; border-radius: 10px; color: #fff;
+  padding: .8rem 1rem; font: inherit; width: 100%; resize: vertical;
+}
+.field input::placeholder, .field textarea::placeholder { color: #6c6f76; }
+.field input:focus, .field textarea:focus { outline: 2px solid var(--blue); border-color: transparent; }
+
+/* Honeypot — visually hidden, off-screen */
+.cform__honey { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+.humancheck { border: 1px solid #2b2d31; border-radius: 12px; padding: 1rem 1.2rem 1.2rem; margin: 1.6rem 0 0; }
+.humancheck legend { padding: 0 .4rem; font-family: "Archivo", sans-serif; font-weight: 600; font-size: .98rem; color: #fff; }
+.humancheck__box { display: flex; align-items: center; gap: .6rem; margin-top: .5rem; color: #c9cbd0; font-size: .95rem; cursor: pointer; }
+.humancheck__box input { width: 18px; height: 18px; accent-color: var(--blue); flex: none; }
+
+.btn-submit {
+  margin-top: 1.6rem; font-family: "Archivo", sans-serif; font-weight: 700; font-size: 1rem;
+  background: #fff; color: var(--ink); border: 0; border-radius: 100px; padding: .9rem 1.9rem;
+  cursor: pointer; transition: transform .15s ease;
+}
+.btn-submit:hover { transform: translateY(-2px); }
+
+@media (max-width: 560px) { .cform__grid { grid-template-columns: 1fr; } }
+
 /* =================== FOOTER =================== */
 .footer { background:#0b0b0d; color:#fff; }
 .footer__inner { max-width: var(--maxw); margin:0 auto; padding: 2.5rem var(--pad); display:flex; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap; }

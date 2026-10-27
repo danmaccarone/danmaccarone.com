@@ -31,6 +31,7 @@
           <li><a href="#medium">Writing</a></li>
           <li><a href="#speaking">Speaking</a></li>
           <li><a href="#podcasts">Podcasts</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <ul class="social nav__social">
           <li><a href="https://x.com/danmaccarone" target="_blank" rel="noopener" aria-label="X">X</a></li>
@@ -253,8 +254,60 @@
     </div>
   </section>
 
+  <!-- =================== CONTACT =================== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <header class="contact__head">
+        <h2>Get in touch</h2>
+        <p class="contact__dek">Speaking, podcasts, product work — or just to say hello. Send a note and it comes straight to my inbox.</p>
+      </header>
+
+      <form class="cform" action="https://formsubmit.co/dan@charmingrobot.com" method="POST">
+        <!-- FormSubmit config -->
+        <input type="hidden" name="_subject" value="New message from danmaccarone.com" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <!-- Honeypot: bots fill this, humans don't; FormSubmit discards if filled -->
+        <input type="text" name="_honey" class="cform__honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+        <div class="cform__grid">
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field field--full">
+            <label for="cf-subject">Subject</label>
+            <input id="cf-subject" name="subject" type="text" required />
+          </div>
+          <div class="field field--full">
+            <label for="cf-linkedin">LinkedIn <span class="field__opt">(optional)</span></label>
+            <input id="cf-linkedin" name="linkedin" type="url" inputmode="url" placeholder="https://www.linkedin.com/in/…" />
+          </div>
+          <div class="field field--full">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="6" required></textarea>
+          </div>
+        </div>
+
+        <fieldset class="humancheck">
+          <legend>Are you human? I love robots (especially charming ones), but I don't love them contacting me.</legend>
+          <label class="humancheck__box">
+            <input type="checkbox" name="human" value="yes" required />
+            <span>Yes, I'm human — not a robot.</span>
+          </label>
+        </fieldset>
+
+        <button class="btn-submit" type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+
   <!-- =================== FOOTER =================== -->
-  <footer class="footer" id="contact">
+  <footer class="footer">
     <div class="footer__inner">
       <span class="footer__brand">Dan Maccarone</span>
       <ul class="social">
