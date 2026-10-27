@@ -136,7 +136,8 @@ a { color: inherit; }
 /* =================== BARSTOOL MBA =================== */
 .barstool { background: var(--ink-2); color: #fff; }
 .barstool__inner { max-width: var(--maxw); margin: 0 auto; padding: var(--sec-y) var(--pad); }
-.barstool__head { display: grid; grid-template-columns: 150px 1fr; gap: clamp(1.5rem,4vw,3rem); align-items: center; }
+.barstool__head { display: grid; grid-template-columns: 240px 1fr; gap: clamp(1.5rem,4vw,3rem); align-items: center; }
+.book-cover { width: 240px; max-width: 100%; border-radius: 6px; box-shadow: 0 22px 44px rgba(0,0,0,.5); }
 .book {
   width: 150px; height: 150px; border-radius: 5px; padding: 1rem; text-align: center;
   background: linear-gradient(160deg,#d44635,var(--red)); box-shadow: 0 20px 40px rgba(0,0,0,.45);
@@ -163,9 +164,9 @@ a { color: inherit; }
   max-width: var(--maxw); margin: 0 auto; padding: var(--sec-y) var(--pad);
   display: grid; grid-template-columns: 260px 1fr; gap: clamp(2rem,5vw,4.5rem); align-items: center;
 }
-.story__badge { display:flex; justify-content:center; animation: spin 30s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce){ .story__badge { animation: none; } }
+.story__badge { display:flex; justify-content:center; }
+.story__badge img { width: 230px; max-width: 100%; height: auto; filter: brightness(0) invert(1); }
+.cr__logo img { width: min(340px, 90%); height: auto; }
 .story__body h2 { font-size: clamp(2rem,4.5vw,3.2rem); font-weight: 900; margin-bottom: 1rem; }
 .story__body p { font-size: 1.12rem; color:#eafaff; max-width: 56ch; margin: 0 0 1.8rem; }
 .episode { margin: 0 0 1.8rem; }
