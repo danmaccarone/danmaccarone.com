@@ -89,6 +89,8 @@ a { color: inherit; }
 
 /* Section intro lede */
 .lede { font-size: clamp(1.05rem,1.9vw,1.3rem); color: var(--muted); max-width: 72ch; margin: 0 0 2.2rem; }
+.speaking__book { margin: 0 0 2.4rem; }
+.speaking__book .cta { font-size: 1.05rem; }
 
 /* Chips (guests, speaking, podcasts, outlets) */
 .chips { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.6rem; }
