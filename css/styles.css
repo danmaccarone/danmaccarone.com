@@ -51,10 +51,9 @@ a { color: inherit; }
 .social { list-style: none; display: flex; gap: .7rem; padding: 0; margin: 0; }
 .social a {
   display: inline-flex; align-items: center; justify-content: center;
-  height: 32px; min-width: 32px; padding: 0 .8rem;
-  border: 1.5px solid currentColor; border-radius: 100px;
-  font-family: "Archivo", sans-serif; font-weight: 600; font-size: .8rem;
-  white-space: nowrap;
+  width: 34px; height: 34px;
+  border: 1.5px solid currentColor; border-radius: 50%;
+  font-family: "Archivo", sans-serif; font-weight: 700; font-size: .72rem;
   text-decoration: none; opacity: .85; transition: opacity .2s, background .2s, color .2s;
 }
 .social a:hover { opacity: 1; }
