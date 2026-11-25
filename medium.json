@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "items": [
+    {
+      "title": "Future-Proofing Is Dead and AI Killed It",
+      "link": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss-8011ccb304dc------2",
+      "date": "Nov 25, 2026",
+      "iso": "2026-11-25",
+      "excerpt": "France built the most future-proofed thing on the planet and then opposition circumvented it. We have always tried to build things that outlast whatever co…",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*xO_rECibhj3Bjsk0jT5nTQ.jpeg"
+    },
     {
       "title": "If AI works from anywhere, why are we commuting to watch it?",
       "link": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss-8011ccb304dc------2",
@@ -40,14 +48,6 @@
       "iso": "2026-10-21",
       "excerpt": "Somewhere in this room is the one person who can tell if any of it is actually good. AI made everyone else look exactly like them. AI lets a solo founder p…",
       "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*XcVtMCEX_vCOtBKRxiMXCw.jpeg"
-    },
-    {
-      "title": "Nobody wants your AI app",
-      "link": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss-8011ccb304dc------2",
-      "date": "Oct 14, 2026",
-      "iso": "2026-10-14",
-      "excerpt": "The switchboard operator’s job was automated out of existence. The work it became, the invisible systems that now connect every call, is worth more than th…",
-      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*_oMEmp-Z-xsaX5uRmZJI4Q.jpeg"
     }
   ]
 }
